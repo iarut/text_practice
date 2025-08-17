@@ -1,0 +1,13 @@
+git:5.13.0
+workflow-aggregator:2.7
+pipeline-stage-view:2.32
+blueocean:1.27.4
+credentials-binding:1.27
+configuration-as-code:1.63
+workflow-multibranch:2.46
+git-client:4.16.0
+github-branch-source:2.14.10
+mailer:1.38
+lockable-resources:2.16
+gradle:1.37
+jdk-tool:1.6

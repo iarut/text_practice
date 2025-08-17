@@ -1,0 +1,11 @@
+jenkins:
+  systemMessage: "Jenkins готов к работе 🚀"
+  securityRealm:
+    local:
+      allowsSignup: false
+      users:
+        - id: "admin"
+          password: "admin123"
+  authorizationStrategy:
+    loggedInUsersCanDoAnything:
+      allowAnonymousRead: false

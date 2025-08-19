@@ -50,6 +50,12 @@ class Math implements IMath {
 class MathProxy implements IMath {
 
     private Math math;
+    public MathProxy() {
+
+    }
+    public MathProxy(Math math) {
+        this.math = math;
+    }
 
     public double add(double x, double y) {
         lazyInitMath();
